@@ -1,0 +1,267 @@
+.navi
+{
+    background-color: #1a1a1a;
+
+}
+.navbar .image
+{
+    width: 90px;
+    height: 70px;
+}
+
+.nav-item a
+{
+    color:#fff
+}
+.navbar-nav .x a:hover
+{
+    color:#ec3237;
+    text-decoration: underline  
+}
+.header
+{
+    background-image: url(../images/cover.jpg);
+    background-size: cover;
+    height: 600px;
+    color:#fff;
+}
+.header .back
+{
+    background-color: rgba(236, 51, 55, 0.7);
+    width: 100%;
+    height: 100%
+}
+.head h1 
+{
+    text-shadow: 0px 5px 10px #af2424;
+   
+    font-weight:700;
+    font-size: 4em;
+    padding-top: 120px
+}
+.head h3
+{
+     text-shadow: 0px 5px 10px #af2424;
+    margin-top: 15px;
+    font-size: 26px
+}
+.head button
+{
+    background-color: rgba(236, 51, 55, 0.7);
+    border: #fff 2px solid;
+    color: #fff;
+    margin-top: 15px;
+    font-size: 16px
+
+}
+.head button:hover
+{
+    background-color: #fff;
+    color:rgba(236, 51, 55, 0.7)
+}
+.don
+{
+   position: relative
+}
+.don i
+{
+    margin: auto;
+    animation-name: move;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    position: absolute
+}
+@keyframes move
+{
+    0% ,100%
+    {
+        top:0%
+    }
+    50%
+    {
+        top:10px
+    }
+    
+}
+.icon-bar 
+{
+    color: #fff
+}
+.about
+{
+    margin-top: 70px;
+  
+   margin-bottom: 70px;
+    
+    
+}
+.about h3
+{
+    font-size:2em;
+    color:#444;
+    font-weight: 700
+}
+.about p ,.skills p , .what p
+{
+    color:#777;
+    margin-top: 10px;
+    font-size: 18px
+    
+   
+}
+.sec
+{
+    margin-top: 0px;
+   
+}
+.abo img
+{
+    width:100%;
+    height: 470;
+    background-size: cover
+
+}
+.skills
+{
+   margin-bottom: 70px ;
+    
+}
+.skills .my 
+{
+    color:#777;
+}
+.B
+{
+    background-color: #ec3237
+}
+span
+{
+    float: right
+}
+.sk button , .what button ,.portfolio .last button , .hire button
+{
+    color:#fff;
+    background-color: #ec3237;
+    border:1px solid #ec3237;
+    font-size: 16px;
+}
+.btn-group-lg>.btn, .btn-lg
+{
+    border-radius: 0px
+}
+.sk button:hover
+{
+    background-color: #c62d32
+}
+.what
+{
+    background-color: #f5f5f5;
+    padding-top: 30px
+}
+.crd
+{
+    margin-top: 30px
+}
+.logo
+{
+    width: 100%;
+    height: 380px;
+    background-image:url(../images/project-counter.jpg);
+    background-size: cover
+    
+}
+.row
+{
+    padding-top: 50px;
+}
+.portfolio
+{
+    background-color: #f5f5f5
+}
+.bpo button
+{
+      font-size: 20px;
+    font-weight: 450;
+     color:#444;
+}
+.bpo  button:hover
+{
+ background-color: #ec3237;
+    color: #fff;
+    border: 1px solid #ec3237
+}
+.devo
+{
+    background-image: url(../images/client-testimonial.jpg);
+    background-size: cover;
+    color: #fff;
+    background-attachment: fixed
+}
+.devo img
+{
+    border: solid 7px #ec3237
+}
+.devo h3 ,.logo .bv
+{
+    color:#ec3237
+}
+
+.gf{
+    padding-right: 50px;
+    padding-left: 50px
+}
+.vv
+{
+    border: 1px solid #fff
+}
+footer 
+{
+    border-top: 1px solid #777
+}
+footer p
+{
+    color:#777
+}
+footer a
+{
+    color: #ec3237
+}
+footer a:hover
+{
+    text-decoration: none;
+     color: #ec3237
+}
+.logo
+{
+    overflow: auto
+}
+.ic i:hover
+{
+    color:#ec3237
+}
+.nav
+{
+    background-color:#f5f5f5;
+   
+}
+.nav-item
+{
+    border: 1px solid rgba(0,0,0,0.1);
+    margin: 0px 13px;
+    
+}
+.nav-item a { color:#777}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link
+{
+   background-color:#ec3237   ;
+}
+.carousel-control-next
+{
+    justify-content: flex-end;
+}
+
+.carousel-control-prev
+{
+    justify-content: flex-start;
+}
